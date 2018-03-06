@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="firstYearProject:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="721272e4-24b8-4622-9872-f350c4da993d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/COController.java" afterPath="$PROJECT_DIR$/src/controller/COController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/EmployeesView.java" afterPath="$PROJECT_DIR$/src/view/EmployeesView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/RentalView.java" afterPath="$PROJECT_DIR$/src/view/RentalView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/ReservationView.java" afterPath="$PROJECT_DIR$/src/view/ReservationView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/employees.fxml" afterPath="$PROJECT_DIR$/src/view/employees.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/inventory.fxml" afterPath="$PROJECT_DIR$/src/view/inventory.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/orders.fxml" afterPath="$PROJECT_DIR$/src/view/orders.fxml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="RentalView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/RentalView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+              <folding>
+                <element signature="e#4346#4371#0" expanded="false" />
+                <element signature="method#loadExtraLineItems#0;class#RentalView#0" expanded="false" />
+                <element signature="method#goBack#0;class#RentalView#0" expanded="false" />
+                <element signature="method#saveChanges#0;class#RentalView#0" expanded="false" />
+                <element signature="method#goToReservation#0;class#RentalView#0" expanded="false" />
+                <element signature="method#goToCustomer#0;class#RentalView#0" expanded="false" />
+                <element signature="method#printContract#0;class#RentalView#0" expanded="false" />
+                <element signature="method#calculateExtraKmFee#0;class#RentalView#0" expanded="false" />
+                <element signature="method#calculateExtraKmFeeEndLocation#0;class#RentalView#0" expanded="false" />
+                <element signature="method#calculateProlongPeriodPrice#0;class#RentalView#0" expanded="false" />
+                <element signature="method#disableFieldsAndButton#0;class#RentalView#0" expanded="false" />
+                <element signature="method#addExtraItem#0;class#RentalView#0" expanded="false" />
+                <element signature="class#10068:10868" expanded="false" />
+                <element signature="method#handle#0;class#10068:10868" expanded="false" />
+                <element signature="method#subtractExtraItem#0;class#RentalView#0" expanded="false" />
+                <element signature="class#10992:11752" expanded="false" />
+                <element signature="method#handle#0;class#10992:11752" expanded="false" />
+                <element signature="method#dropOff#0;class#RentalView#0" expanded="false" />
+                <element signature="method#manageInvoices#0;class#RentalView#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReservationView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/ReservationView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="321" column="0" lean-forward="true" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
+              <folding>
+                <element signature="method#initialize#0;class#ReservationView#0" expanded="false" />
+                <element signature="e#3016#3041#0" expanded="false" />
+                <element signature="method#setDisable#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#calculateAtTheBeginning#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#loadData#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#goBack#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#goToCustommer#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#addExtraItem#0;class#ReservationView#0" expanded="false" />
+                <element signature="class#6491:7314" expanded="false" />
+                <element signature="method#handle#0;class#6491:7314" expanded="false" />
+                <element signature="method#loadExtraLineItems#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#subtractExtraItem#0;class#ReservationView#0" expanded="false" />
+                <element signature="class#7995:8759" expanded="false" />
+                <element signature="method#handle#0;class#7995:8759" expanded="false" />
+                <element signature="method#calculateExtraKmFee#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#calculateExtraKmFeeEndLocation#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#disableFieldsAndButton#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#changeCamperType#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#changeCamperTypeNewPrice#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#checkCamperTypeAvailable#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#calculateProlongStartDate#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#updateReservation#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#saveChanges#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#saveReservChanges#0;class#ReservationView#0" expanded="false" />
+                <element signature="method#seeInvoices#0;class#ReservationView#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeesView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/EmployeesView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="168" column="35" lean-forward="true" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc;n#setPossition#0;n#EmployeesView#0" expanded="false" />
+                <element signature="method#setPossition#0;class#EmployeesView#0" expanded="false" />
+                <element signature="method#updateEmployee#0;class#EmployeesView#0" expanded="false" />
+                <element signature="method#goBack#0;class#EmployeesView#0" expanded="false" />
+                <marker date="1496869106419" expanded="false" signature="10390:10765" ph="update employee" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/LoginView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="29" />
+              <folding>
+                <element signature="method#changeScreen#0;class#LoginController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>set</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/view/Image/contract.fxml" />
+        <option value="$PROJECT_DIR$/src/view/Image/ContractView.java" />
+        <option value="$PROJECT_DIR$/src/db/MotorhomeDepotWrapper.java" />
+        <option value="$PROJECT_DIR$/src/controller/AccController.java" />
+        <option value="$PROJECT_DIR$/src/model/CamperType.java" />
+        <option value="$PROJECT_DIR$/src/db/CamperTypeWrapper.java" />
+        <option value="$PROJECT_DIR$/src/view/rental.fxml" />
+        <option value="$PROJECT_DIR$/src/model/extra_line_item.java" />
+        <option value="$PROJECT_DIR$/src/model/extras_line_item.java" />
+        <option value="$PROJECT_DIR$/src/model/extrasLineItem.java" />
+        <option value="$PROJECT_DIR$/src/view/VeryPretty.css" />
+        <option value="$PROJECT_DIR$/src/view/reservation.fxml" />
+        <option value="$PROJECT_DIR$/src/view/customerdetails.fxml" />
+        <option value="$PROJECT_DIR$/src/view/invoice.fxml" />
+        <option value="$PROJECT_DIR$/src/model/Invoise.java" />
+        <option value="$PROJECT_DIR$/src/db/CamperWrapper.java" />
+        <option value="$PROJECT_DIR$/src/view/OrderEditView.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/model/Person.java" />
+        <option value="$PROJECT_DIR$/src/model/ExtraItem.java" />
+        <option value="$PROJECT_DIR$/src/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/view/orders.fxml" />
+        <option value="$PROJECT_DIR$/src/model/Rental.java" />
+        <option value="$PROJECT_DIR$/src/view/ContractView.java" />
+        <option value="$PROJECT_DIR$/src/view/ServiceView.java" />
+        <option value="$PROJECT_DIR$/src/view/StatusView.java" />
+        <option value="$PROJECT_DIR$/src/model/Service.java" />
+        <option value="$PROJECT_DIR$/src/model/Reservation.java" />
+        <option value="$PROJECT_DIR$/src/model/Invoice.java" />
+        <option value="$PROJECT_DIR$/src/model/Employee.java" />
+        <option value="$PROJECT_DIR$/src/controller/ServiceController.java" />
+        <option value="$PROJECT_DIR$/src/view/OrdersView.java" />
+        <option value="$PROJECT_DIR$/src/model/Depot.java" />
+        <option value="$PROJECT_DIR$/src/model/Order.java" />
+        <option value="$PROJECT_DIR$/src/model/Camper.java" />
+        <option value="$PROJECT_DIR$/src/view/Screen.java" />
+        <option value="$PROJECT_DIR$/src/view/CreateResView.java" />
+        <option value="$PROJECT_DIR$/src/view/InventoryView.java" />
+        <option value="$PROJECT_DIR$/src/view/InvoiceView.java" />
+        <option value="$PROJECT_DIR$/src/view/LoginView.java" />
+        <option value="$PROJECT_DIR$/src/db/DepotWrapper.java" />
+        <option value="$PROJECT_DIR$/src/db/ExtraItemWrapper.java" />
+        <option value="$PROJECT_DIR$/src/db/PersonWrapper.java" />
+        <option value="$PROJECT_DIR$/src/view/CustomerDetailsView.java" />
+        <option value="$PROJECT_DIR$/src/controller/Helper.java" />
+        <option value="$PROJECT_DIR$/src/model/ExtrasLineItem.java" />
+        <option value="$PROJECT_DIR$/src/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/controller/COController.java" />
+        <option value="$PROJECT_DIR$/src/view/ReservationView.java" />
+        <option value="$PROJECT_DIR$/src/view/RentalView.java" />
+        <option value="$PROJECT_DIR$/src/view/EmployeesView.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstYearProject_jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/Git1/FirstYearExamProject/firstYearProject" />
+    <property name="SearchEverywhereHistoryKey" value="newRes&#9;PSI&#9;JAVA://controller.COController#saveNewReservation&#10;invoice&#9;PSI&#9;JAVA://db.DepotWrapper#saveInvoice&#10;createRese&#9;PSI&#9;JAVA://view.OrdersView#createReservation&#10;createReser&#9;PSI&#9;JAVA://view.OrdersView#createReservation&#10;calcu&#9;PSI&#9;JAVA://controller.COController#calculateChangeStartDate&#10;clearCusto&#9;PSI&#9;JAVA://view.CustomerDetailsView#clearCustomerFileds&#10;timeperiod&#9;PSI&#9;JAVA://controller.COController#setSelectedTimePeriod&#10;cal&#9;PSI&#9;JAVA://controller.COController#calculateExtraLinesItemsTotal&#10;getExtr&#9;PSI&#9;JAVA://controller.COController#getExtras&#10;getReser&#9;PSI&#9;JAVA://controller.COController#getReservations&#10;getRese&#9;PSI&#9;JAVA://db.DepotWrapper#getReservations" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git\FirstYearExamProject\firstYearProject\src\view" />
+      <recent name="D:\Git\FirstYearExamProject\firstYearProject\src\view\Image" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git\FirstYearExamProject\firstYearProject\src\view" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="firstYearProject" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="firstYearProject" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="721272e4-24b8-4622-9872-f350c4da993d" name="Default" comment="" />
+      <created>1494432354485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1494432354485</updated>
+      <workItem from="1494432357624" duration="14606000" />
+      <workItem from="1494481724993" duration="1577000" />
+      <workItem from="1494483313490" duration="25419000" />
+      <workItem from="1494545787424" duration="31572000" />
+      <workItem from="1494616409060" duration="108594000" />
+      <workItem from="1494944561942" duration="172398000" />
+      <workItem from="1495531706867" duration="44462000" />
+      <workItem from="1495702087950" duration="50000" />
+      <workItem from="1495702204904" duration="1642000" />
+      <workItem from="1495704003919" duration="34772000" />
+      <workItem from="1495874936461" duration="1266000" />
+      <workItem from="1495876216995" duration="28000" />
+      <workItem from="1495876260101" duration="648000" />
+      <workItem from="1495876959452" duration="266000" />
+      <workItem from="1495877239212" duration="32000" />
+      <workItem from="1495877285030" duration="70172000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="507504000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32601535" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8287596" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.159375" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/view/rental.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="118" column="91" lean-forward="false" selection-start-line="118" selection-start-column="91" selection-end-line="118" selection-end-column="91" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/invoice.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/reservation.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="114" column="92" lean-forward="true" selection-start-line="114" selection-start-column="92" selection-end-line="114" selection-end-column="92" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/orders.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="36" column="87" lean-forward="false" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/createRes.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/status.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/view/StatusView.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="118" column="22" lean-forward="false" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ExtraItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/CamperType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/view.RentalView">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>view.RentalView</OriginalElement>
+          <nodes>
+            <node x="" y="">view.RentalView</node>
+            <node x="" y="">javafx.fxml.Initializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8209099709583737" x="448.0" y="507.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Rental.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="163" column="30" lean-forward="false" selection-start-line="162" selection-start-column="14" selection-end-line="163" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/OrdersView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="209" column="21" lean-forward="false" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="101" column="64" lean-forward="false" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
+          <folding>
+            <marker date="1496218813282" expanded="true" signature="478:486" ph="{...}" />
+            <marker date="1496218813282" expanded="true" signature="606:827" ph="{...}" />
+            <marker date="1496218813282" expanded="false" signature="851:866" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="876:882" ph=" }" />
+            <marker date="1496218813282" expanded="false" signature="913:928" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="941:947" ph=" }" />
+            <marker date="1496218813282" expanded="false" signature="979:994" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="1011:1017" ph=" }" />
+            <marker date="1496218813282" expanded="false" signature="1063:1078" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="1105:1111" ph=" }" />
+            <marker date="1496218813282" expanded="false" signature="1141:1156" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="1171:1177" ph=" }" />
+            <marker date="1496218813282" expanded="false" signature="1219:1234" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="1257:1263" ph=" }" />
+            <marker date="1496218813282" expanded="false" signature="1301:1316" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="1337:1343" ph=" }" />
+            <marker date="1496218813282" expanded="false" signature="1399:1414" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="1449:1455" ph=" }" />
+            <marker date="1496218813282" expanded="false" signature="1491:1506" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="1525:1531" ph=" }" />
+            <marker date="1496218813282" expanded="false" signature="1583:1598" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="1629:1635" ph=" }" />
+            <marker date="1496218813282" expanded="false" signature="1668:1683" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="1702:1708" ph=" }" />
+            <marker date="1496218813282" expanded="false" signature="1757:1772" ph=" { " />
+            <marker date="1496218813282" expanded="false" signature="1803:1809" ph=" }" />
+            <marker date="1496218813282" expanded="true" signature="1894:1956" ph="{...}" />
+            <marker date="1496218813282" expanded="true" signature="2020:2031" ph=" { " />
+            <marker date="1496218813282" expanded="true" signature="2079:2085" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Camper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <marker date="1496221008296" expanded="true" signature="492:645" ph="{...}" />
+            <marker date="1496221008296" expanded="true" signature="651:2398" ph="Rasmus" />
+            <marker date="1496221008296" expanded="true" signature="734:820" ph="{...}" />
+            <marker date="1496221008296" expanded="true" signature="846:853" ph="{...}" />
+            <marker date="1496221008296" expanded="true" signature="885:1056" ph="{...}" />
+            <marker date="1496221008296" expanded="true" signature="1095:1607" ph="{...}" />
+            <marker date="1496221008296" expanded="true" signature="1662:2202" ph="{...}" />
+            <marker date="1496221008296" expanded="false" signature="2232:2247" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="2270:2276" ph=" }" />
+            <marker date="1496221008296" expanded="true" signature="2317:2382" ph="{...}" />
+            <marker date="1496221008296" expanded="true" signature="2404:3559" ph="Getters &amp; setters" />
+            <marker date="1496221008296" expanded="false" signature="2453:2468" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="2478:2484" ph=" }" />
+            <marker date="1496221008296" expanded="false" signature="2515:2530" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="2543:2549" ph=" }" />
+            <marker date="1496221008296" expanded="false" signature="2579:2594" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="2610:2616" ph=" }" />
+            <marker date="1496221008296" expanded="false" signature="2660:2675" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="2700:2706" ph=" }" />
+            <marker date="1496221008296" expanded="false" signature="2745:2760" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="2778:2784" ph=" }" />
+            <marker date="1496221008296" expanded="true" signature="2843:2929" ph="{...}" />
+            <marker date="1496221008296" expanded="false" signature="2959:2974" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="2987:2993" ph=" }" />
+            <marker date="1496221008296" expanded="false" signature="3034:3049" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="3068:3074" ph=" }" />
+            <marker date="1496221008296" expanded="false" signature="3105:3120" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="3134:3140" ph=" }" />
+            <marker date="1496221008296" expanded="true" signature="3187:3260" ph="{...}" />
+            <marker date="1496221008296" expanded="true" signature="3311:3326" ph=" { " />
+            <marker date="1496221008296" expanded="true" signature="3380:3386" ph=" }" />
+            <marker date="1496221008296" expanded="false" signature="3418:3433" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="3448:3454" ph=" }" />
+            <marker date="1496221008296" expanded="false" signature="3499:3514" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="3537:3543" ph=" }" />
+            <marker date="1496221008296" expanded="false" signature="3590:3605" ph=" { " />
+            <marker date="1496221008296" expanded="false" signature="3656:3662" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#change#0;class#Screen#0" expanded="false" />
+            <marker date="1496221008302" expanded="false" signature="1899:2468" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="2326:2341" ph="&lt;~&gt;" />
+            <marker date="1496221008302" expanded="false" signature="2560:2736" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="2817:3540" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="2962:3531" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="3630:3804" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="3867:4634" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="4252:4319" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="4694:5278" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="4999:5038" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="5346:5597" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="5437:5589" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="5668:6105" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="5752:6097" ph="{...}" />
+            <marker date="1496221008302" expanded="false" signature="5900:6087" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/InvoiceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="method#initialize#0;class#InvoiceView#0" expanded="false" />
+            <element signature="class#2006:2476" expanded="false" />
+            <element signature="method#changed#0;class#2006:2476" expanded="false" />
+            <element signature="method#goBack#0;class#InvoiceView#0" expanded="false" />
+            <element signature="method#print#0;class#InvoiceView#0" expanded="false" />
+            <element signature="method#goToPayment#0;class#InvoiceView#0" expanded="false" />
+            <marker date="1496222298449" expanded="false" signature="2528:2601" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ServiceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DBCon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="method#getConn#0;class#DBCon#0" expanded="false" />
+            <element signature="method#close#0;class#DBCon#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/ExtraItemWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="321" column="4" lean-forward="false" selection-start-line="321" selection-start-column="4" selection-end-line="321" selection-end-column="4" />
+          <folding>
+            <element signature="method#getInstance#0;class#ExtraItemWrapper#0" expanded="false" />
+            <element signature="method#ExtraItemWrapper#0;class#ExtraItemWrapper#0" expanded="false" />
+            <element signature="method#saveNew#0;class#ExtraItemWrapper#0" expanded="false" />
+            <element signature="method#load#0;class#ExtraItemWrapper#0" expanded="false" />
+            <element signature="method#update#0;class#ExtraItemWrapper#0" expanded="false" />
+            <element signature="method#delete#0;class#ExtraItemWrapper#0" expanded="false" />
+            <element signature="method#getExtrasLineItems#0;class#ExtraItemWrapper#0" expanded="false" />
+            <element signature="method#saveAllInfo#0;class#ExtraItemWrapper#0" expanded="false" />
+            <element signature="method#save#0;class#ExtraItemWrapper#0" expanded="false" />
+            <element signature="method#updateExtrasLineItem#0;class#ExtraItemWrapper#0" expanded="false" />
+            <element signature="method#deleteExtraLineItem#0;class#ExtraItemWrapper#0" expanded="false" />
+            <element signature="method#deleteExtraLineItems#0;class#ExtraItemWrapper#0" expanded="false" />
+            <marker date="1496222298448" expanded="false" signature="719:860" ph="INSERT INTO `nordic_motorhomes`.`extras`... " />
+            <marker date="1496222298448" expanded="false" signature="1567:1636" ph="SELECT * FRO... extras" />
+            <marker date="1496222298448" expanded="false" signature="2318:2464" ph="UPDATE `nord... " />
+            <marker date="1496222298448" expanded="false" signature="3012:3079" ph="DELETE FROM " />
+            <marker date="1496222298448" expanded="false" signature="3672:4131" ph="SELECT extra... extras_line_item" />
+            <marker date="1496222298448" expanded="false" signature="4205:4664" ph="SELECT extra... extras_line_item" />
+            <marker date="1496222298448" expanded="false" signature="5585:5860" ph="INSERT INTO `nordic_motorhomes`.`extras_line_item`... " />
+            <marker date="1496222298448" expanded="false" signature="5919:6194" ph="INSERT INTO `nordic_motorhomes`.`extras_line_item`... " />
+            <marker date="1496222298448" expanded="false" signature="6703:6961" ph="INSERT INTO `nordic_motorhomes`.`extras_line_item`... " />
+            <marker date="1496222298448" expanded="false" signature="7020:7278" ph="INSERT INTO `nordic_motorhomes`.`extras_line_item`... " />
+            <marker date="1496222298448" expanded="false" signature="7731:7892" ph="UPDATE `nord... " />
+            <marker date="1496222298448" expanded="false" signature="8288:8344" ph="DELETE FROM " />
+            <marker date="1496222298448" expanded="false" signature="8744:8796" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/PersonWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="491" column="5" lean-forward="true" selection-start-line="491" selection-start-column="5" selection-end-line="491" selection-end-column="5" />
+          <folding>
+            <element signature="method#getInstance#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#PersonWrapper#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#getPerson#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#saveNewEmployee#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#readEmployee#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#addSalt#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#getCustomer#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#save#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#updatePassword#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#deleteEmployee#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#getCustomers#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#updateCustomer#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="method#saveNewCustomer#0;class#PersonWrapper#0" expanded="false" />
+            <element signature="e#13994#14026#0" expanded="false" />
+            <marker date="1496222298449" expanded="false" signature="1132:1191" ph="SELECT * FRO... persons" />
+            <marker date="1496222298449" expanded="false" signature="3426:3696" ph="INSERT INTO `nordic_motorhomes`.`persons`... " />
+            <marker date="1496222298449" expanded="false" signature="5102:5125" ph="SELECT * FRO... persons" />
+            <marker date="1496222298449" expanded="false" signature="6810:6847" ph="SELECT * FRO... customers" />
+            <marker date="1496222298449" expanded="false" signature="7967:8404" ph="UPDATE `nord... " />
+            <marker date="1496222298449" expanded="false" signature="9256:9338" ph="UPDATE `nord... " />
+            <marker date="1496222298449" expanded="false" signature="9797:9864" ph="DELETE FROM " />
+            <marker date="1496222298449" expanded="false" signature="10366:10391" ph="SELECT * FRO... customers" />
+            <marker date="1496222298449" expanded="false" signature="11572:11965" ph="UPDATE `nord... " />
+            <marker date="1496222298449" expanded="false" signature="12816:13051" ph="INSERT INTO `nordic_motorhomes`.`customers`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/ServiceWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="method#getInstance#0;class#ServiceWrapper#0" expanded="false" />
+            <element signature="method#ServiceWrapper#0;class#ServiceWrapper#0" expanded="false" />
+            <element signature="method#saveNew#0;class#ServiceWrapper#0" expanded="false" />
+            <element signature="method#load#0;class#ServiceWrapper#0" expanded="false" />
+            <element signature="method#update#0;class#ServiceWrapper#0" expanded="false" />
+            <element signature="method#delete#0;class#ServiceWrapper#0" expanded="false" />
+            <marker date="1496221008295" expanded="false" signature="638:803" ph="INSERT INTO `nordic_motorhomes`.`service`... " />
+            <marker date="1496221008295" expanded="false" signature="1574:1942" ph="SELECT servi... service" />
+            <marker date="1496221008295" expanded="false" signature="3151:3437" ph="UPDATE `nord... " />
+            <marker date="1496221008295" expanded="false" signature="4247:4314" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/CamperTypeWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="method#getInstance#0;class#CamperTypeWrapper#0" expanded="false" />
+            <element signature="method#CamperTypeWrapper#0;class#CamperTypeWrapper#0" expanded="false" />
+            <element signature="method#saveNew#0;class#CamperTypeWrapper#0" expanded="false" />
+            <element signature="method#load#0;class#CamperTypeWrapper#0" expanded="false" />
+            <element signature="method#update#0;class#CamperTypeWrapper#0" expanded="false" />
+            <element signature="method#delete#0;class#CamperTypeWrapper#0" expanded="false" />
+            <element signature="method#getDeliveryPrice#0;class#CamperTypeWrapper#0" expanded="false" />
+            <marker date="1496221008292" expanded="false" signature="648:855" ph="INSERT INTO `nordic_motorhomes`.`rvs_type`... " />
+            <marker date="1496221008292" expanded="false" signature="1788:1857" ph="SELECT * FRO... rvs_type" />
+            <marker date="1496221008292" expanded="false" signature="2785:3059" ph="UPDATE `nord... " />
+            <marker date="1496221008292" expanded="false" signature="3852:3919" ph="DELETE FROM " />
+            <marker date="1496221008292" expanded="false" signature="4405:4447" ph="SELECT km_pr... rvs_type" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DepotWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="542" column="4" lean-forward="false" selection-start-line="542" selection-start-column="4" selection-end-line="542" selection-end-column="4" />
+          <folding>
+            <element signature="method#getInstance#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getServices#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getEmployee#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getMotorhomeTypes#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getCampers#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getReservations#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getAvailableCampers#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getRentals#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#loadRental#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getExtras#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#createRental#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#saveCamperStatusChanges#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#saveReservationStateChanges#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#deleteRental#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getRentalsBySearchText#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getReservationsBySearchText#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#saveNewReservation#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#addRecordInDateLogs#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#updateDateLogs#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#deleteDateLog#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="e#20145#20183#0" expanded="false" />
+            <element signature="method#checkAvailability#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="e#24029#24071#0" expanded="false" />
+            <element signature="method#updateRental#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getCustomersByText#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#saveReservChanges#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#saveInvoice#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#getInvoices#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#updateInvoice#0;class#DepotWrapper#0" expanded="false" />
+            <element signature="method#updateCustomerID#0;class#DepotWrapper#0" expanded="false" />
+            <marker date="1496222298447" expanded="false" signature="665:1099" ph="SELECT servi... service" />
+            <marker date="1496222298447" expanded="false" signature="2352:2395" ph="SELECT * FRO... persons" />
+            <marker date="1496222298447" expanded="false" signature="3457:3481" ph="SELECT * FRO... rvs_type" />
+            <marker date="1496222298447" expanded="false" signature="4282:4321" ph="SELECT * FRO... rvs" />
+            <marker date="1496222298447" expanded="false" signature="5168:5194" ph="SELECT * FRO... reservations" />
+            <marker date="1496222298447" expanded="false" signature="6507:6551" ph="SELECT * FRO... rvs" />
+            <marker date="1496222298447" expanded="false" signature="7353:7374" ph="SELECT * FRO... rentals" />
+            <marker date="1496222298447" expanded="false" signature="8689:8767" ph="SELECT * FRO... rentals" />
+            <marker date="1496222298447" expanded="false" signature="10153:10175" ph="SELECT * FRO... extras" />
+            <marker date="1496222298447" expanded="false" signature="10671:11240" ph="INSERT INTO `nordic_motorhomes`.`rentals`... " />
+            <marker date="1496222298447" expanded="false" signature="11858:11930" ph="UPDATE `nord... " />
+            <marker date="1496222298447" expanded="false" signature="12359:12447" ph="UPDATE `nord... " />
+            <marker date="1496222298447" expanded="false" signature="12856:12887" ph="DELETE FROM " />
+            <marker date="1496222298447" expanded="false" signature="13316:13438" ph="SELECT * FRO... rentals" />
+            <marker date="1496222298447" expanded="false" signature="15075:15182" ph="SELECT * FRO... reservations" />
+            <marker date="1496222298447" expanded="false" signature="16503:16823" ph="INSERT INTO `reservations`... " />
+            <marker date="1496222298447" expanded="false" signature="18319:18499" ph="INSERT INTO `nordic_motorhomes`.`date_logs`... " />
+            <marker date="1496222298447" expanded="false" signature="19058:19276" ph="UPDATE `nord... " />
+            <marker date="1496222298447" expanded="false" signature="19760:19837" ph="DELETE FROM " />
+            <marker date="1496222298447" expanded="false" signature="24149:24184" ph="SELECT * FRO... rvs" />
+            <marker date="1496222298447" expanded="false" signature="24834:25188" ph="SELECT * FRO... date_logs" />
+            <marker date="1496222298447" expanded="false" signature="26384:26671" ph="UPDATE `nord... " />
+            <marker date="1496222298447" expanded="false" signature="27234:27361" ph="SELECT * FRO... customers" />
+            <marker date="1496222298447" expanded="false" signature="28631:29029" ph="UPDATE `nord... " />
+            <marker date="1496222298447" expanded="false" signature="29762:29880" ph="INSERT INTO `nordic_motorhomes`.`invoices`... " />
+            <marker date="1496222298447" expanded="false" signature="30462:30504" ph="SELECT * FRO... invoices" />
+            <marker date="1496222298447" expanded="false" signature="31178:31269" ph="UPDATE `nord... " />
+            <marker date="1496222298447" expanded="false" signature="31734:31874" ph="UPDATE `nord... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ContractView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/CamperWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="69" column="4" lean-forward="false" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+          <folding>
+            <element signature="method#getInstance#0;class#CamperWrapper#0" expanded="false" />
+            <element signature="method#CamperWrapper#0;class#CamperWrapper#0" expanded="false" />
+            <element signature="method#saveNew#0;class#CamperWrapper#0" expanded="false" />
+            <element signature="method#load#0;class#CamperWrapper#0" expanded="false" />
+            <element signature="method#loadFromRental#0;class#CamperWrapper#0" expanded="false" />
+            <element signature="method#update#0;class#CamperWrapper#0" expanded="false" />
+            <element signature="method#delete#0;class#CamperWrapper#0" expanded="false" />
+            <element signature="method#saveStatusAndKm#0;class#CamperWrapper#0" expanded="false" />
+            <marker date="1496221008293" expanded="false" signature="617:789" ph="INSERT INTO `nordic_motorhomes`.`rvs`... " />
+            <marker date="1496221008293" expanded="false" signature="1609:1678" ph="SELECT * FRO... rvs" />
+            <marker date="1496221008293" expanded="false" signature="2508:2664" ph="SELECT * FRO... rvs" />
+            <marker date="1496221008293" expanded="false" signature="2587:2663" ph="SELECT rv_id... rentals" />
+            <marker date="1496221008293" expanded="false" signature="3525:3746" ph="UPDATE `nord... " />
+            <marker date="1496221008293" expanded="false" signature="4410:4477" ph="DELETE FROM " />
+            <marker date="1496221008293" expanded="false" signature="4962:5103" ph="UPDATE `nord... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/CreateResView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="358" column="4" lean-forward="false" selection-start-line="358" selection-start-column="4" selection-end-line="358" selection-end-column="4" />
+          <folding>
+            <element signature="method#initialize#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#updateFields#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#updateExtrasTables#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#addExtra#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#subtractExtra#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#sumOfPrices#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#checkAvailable#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#calcDeliveryPrice#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#cancelBtnAct#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#setReservation#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#nextBtnAct#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#saveNewReservation#0;class#CreateResView#0" expanded="false" />
+            <element signature="method#listeners#0;class#CreateResView#0" expanded="false" />
+            <element signature="e#10947#11800#0" expanded="false" />
+            <element signature="e#11855#12707#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/CustomerDetailsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="280" column="29" lean-forward="true" selection-start-line="280" selection-start-column="29" selection-end-line="280" selection-end-column="29" />
+          <folding>
+            <element signature="e#870#893#0" expanded="false" />
+            <element signature="method#checkforEmpty#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="n#!!doc;n#initialize#0;n#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#initialize#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#exitOrLogOut#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="e#4025#4050#0" expanded="false" />
+            <element signature="method#loadSelectedCustomer#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#setDisableCustomerFileds#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#clearCustomerFileds#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#loadCustomers#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#setResAndItems#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#goBack#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#saveCustomer#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#changeOrderCustomer#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#searchCustomers#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#cprRestrict#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="class#8499:8987" expanded="false" />
+            <element signature="method#changed#0;class#8499:8987" expanded="false" />
+            <element signature="method#drLicenseRestrict#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="class#9159:9599" expanded="false" />
+            <element signature="method#changed#0;class#9159:9599" expanded="false" />
+            <element signature="method#phoneRestrict#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="class#9771:10272" expanded="false" />
+            <element signature="method#changed#0;class#9771:10272" expanded="false" />
+            <element signature="n#!!doc;n#createCustomer#0;n#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#createCustomer#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#selectCustomer#0;class#CustomerDetailsView#0" expanded="false" />
+            <element signature="method#assignToNewReservation#0;class#CustomerDetailsView#0" expanded="false" />
+            <marker date="1496222152427" expanded="false" signature="11324:12260" ph="create/select customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ExtrasLineItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+          <folding>
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/collections/ObservableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="695" column="29" lean-forward="false" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/AccController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding>
+            <element signature="method#saveCamperType#0;class#AccController#0" expanded="false" />
+            <element signature="method#loadCamperTypes#0;class#AccController#0" expanded="false" />
+            <element signature="method#deleteCamperType#0;class#AccController#0" expanded="false" />
+            <element signature="method#saveCamper#0;class#AccController#0" expanded="false" />
+            <element signature="method#loadCampers#0;class#AccController#0" expanded="false" />
+            <element signature="method#deleteCamper#0;class#AccController#0" expanded="false" />
+            <element signature="method#saveExtraItem#0;class#AccController#0" expanded="false" />
+            <element signature="method#loadExtraItems#0;class#AccController#0" expanded="false" />
+            <element signature="method#deleteExtraItem#0;class#AccController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/InventoryView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-410">
+          <caret line="165" column="27" lean-forward="false" selection-start-line="165" selection-start-column="27" selection-end-line="165" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc;n#camperTypeTbl#0;n#InventoryView#0" expanded="false" />
+            <element signature="e#963#995#0" expanded="false" />
+            <element signature="n#!!doc;n#camperTbl#0;n#InventoryView#0" expanded="false" />
+            <element signature="e#1622#1650#0" expanded="false" />
+            <element signature="n#!!doc;n#extrasTbl#0;n#InventoryView#0" expanded="false" />
+            <element signature="e#2150#2178#0" expanded="false" />
+            <element signature="method#initialize#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#updateCampers#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#updateExtras#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#updateTypeFields#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#updateCamperFields#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#updateExtrasFields#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#clearTypeFields#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#clearCamperFields#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#clearExtrasFields#0;class#InventoryView#0" expanded="false" />
+            <element signature="e#7778#7824#0" expanded="false" />
+            <element signature="e#8353#8375#0" expanded="false" />
+            <element signature="method#typeSaveAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#camperSaveAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#extraSaveAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="n#!!doc;n#typeNewAct#0;n#InventoryView#0" expanded="false" />
+            <element signature="method#typeNewAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#camperNewAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#extraNewAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="n#!!doc;n#typeDeleteAct#0;n#InventoryView#0" expanded="false" />
+            <element signature="method#typeDeleteAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#camperDeleteAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#extraDeleteAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="n#!!doc;n#camperTypeTblAct#0;n#InventoryView#0" expanded="false" />
+            <element signature="method#camperTypeTblAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#camperTblAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#extrasTblAct#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#setNewTypeMode#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#setNewCamperMode#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#setNewExtraMode#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#exitOrLogOut#0;class#InventoryView#0" expanded="false" />
+            <element signature="method#backBtnAct#0;class#InventoryView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2174">
+          <caret line="94" column="62" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Depot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="165" column="30" lean-forward="false" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
+          <folding>
+            <element signature="e#3823#3824#0" expanded="true" />
+            <element signature="e#3877#3878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/COController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="1266" column="21" lean-forward="false" selection-start-line="1266" selection-start-column="21" selection-end-line="1266" selection-end-column="21" />
+          <folding>
+            <element signature="method#setCreatedCustomerID#0;class#COController#0" expanded="false" />
+            <element signature="method#getCustomers#0;class#COController#0" expanded="false" />
+            <element signature="method#getCamperPrice#0;class#COController#0" expanded="false" />
+            <element signature="method#getMotorhomeTypes#0;class#COController#0" expanded="false" />
+            <element signature="method#getExtras#0;class#COController#0" expanded="false" />
+            <element signature="method#getReservations#0;class#COController#0" expanded="false" />
+            <element signature="method#getAvailableCampers#0;class#COController#0" expanded="false" />
+            <element signature="method#getRentals#0;class#COController#0" expanded="false" />
+            <element signature="method#createRental#0;class#COController#0" expanded="false" />
+            <element signature="method#generateContract#0;class#COController#0" expanded="false" />
+            <element signature="e#7048#7085#0" expanded="false" />
+            <element signature="method#deleteRental#0;class#COController#0" expanded="false" />
+            <element signature="method#getCamperBrandAndModel#0;class#COController#0" expanded="false" />
+            <element signature="method#getCamperType#0;class#COController#0" expanded="false" />
+            <element signature="method#getReservation#0;class#COController#0" expanded="false" />
+            <element signature="method#checkAvailability#0;class#COController#0" expanded="false" />
+            <element signature="method#getExtrasLineItems#0;class#COController#0" expanded="false" />
+            <element signature="method#addExtraLineItem#0;class#COController#0" expanded="false" />
+            <element signature="method#createExtraLineItem#0;class#COController#0" expanded="false" />
+            <element signature="method#subtractExtraLineItemQuantity#0;class#COController#0" expanded="false" />
+            <element signature="method#calculateExtraLinesItemsTotal#0;class#COController#0" expanded="false" />
+            <element signature="method#calculateDeliveryPrice#0;class#COController#0" expanded="false" />
+            <element signature="method#updateRental#0;class#COController#0" expanded="false" />
+            <element signature="method#getCamperType#1;class#COController#0" expanded="false" />
+            <element signature="method#checkAreFieldsEmpty#0;class#COController#0" expanded="false" />
+            <element signature="method#getSelectedCustomer#0;class#COController#0" expanded="false" />
+            <element signature="method#addToExtraLocal#0;class#COController#0" expanded="false" />
+            <element signature="method#subtractExtraLocal#0;class#COController#0" expanded="false" />
+            <element signature="method#calcExtrasPrice#0;class#COController#0" expanded="false" />
+            <element signature="method#saveExtraLineItems#0;class#COController#0" expanded="false" />
+            <element signature="method#createService#0;class#COController#0" expanded="false" />
+            <element signature="method#saveNewReservation#0;class#COController#0" expanded="false" />
+            <element signature="method#getCamperTypes#0;class#COController#0" expanded="false" />
+            <element signature="method#getCamperTypeByItsID#0;class#COController#0" expanded="false" />
+            <element signature="method#updateCustomerInfo#0;class#COController#0" expanded="false" />
+            <element signature="method#changeOrderCustomerID#0;class#COController#0" expanded="false" />
+            <element signature="method#createCustomer#0;class#COController#0" expanded="false" />
+            <element signature="method#saveReservChanges#0;class#COController#0" expanded="false" />
+            <element signature="method#getReservationByID#0;class#COController#0" expanded="false" />
+            <element signature="method#cancelReservation#0;class#COController#0" expanded="false" />
+            <element signature="method#createInvoice#0;class#COController#0" expanded="false" />
+            <element signature="e#37107#37128#0" expanded="false" />
+            <element signature="e#39628#39629#0" expanded="true" />
+            <element signature="e#39675#39676#0" expanded="true" />
+            <element signature="method#getRservation#0;class#COController#0" expanded="false" />
+            <element signature="method#getRenalByReservID#0;class#COController#0" expanded="false" />
+            <element signature="method#addRecordToDateLogs#0;class#COController#0" expanded="false" />
+            <element signature="method#updateDateLog#0;class#COController#0" expanded="false" />
+            <element signature="method#createCancelationInvoice#0;class#COController#0" expanded="false" />
+            <element signature="e#42075#42096#0" expanded="false" />
+            <element signature="method#createReservation#0;class#COController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/RentalView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+          <folding>
+            <element signature="e#4346#4371#0" expanded="false" />
+            <element signature="method#loadExtraLineItems#0;class#RentalView#0" expanded="false" />
+            <element signature="method#goBack#0;class#RentalView#0" expanded="false" />
+            <element signature="method#saveChanges#0;class#RentalView#0" expanded="false" />
+            <element signature="method#goToReservation#0;class#RentalView#0" expanded="false" />
+            <element signature="method#goToCustomer#0;class#RentalView#0" expanded="false" />
+            <element signature="method#printContract#0;class#RentalView#0" expanded="false" />
+            <element signature="method#calculateExtraKmFee#0;class#RentalView#0" expanded="false" />
+            <element signature="method#calculateExtraKmFeeEndLocation#0;class#RentalView#0" expanded="false" />
+            <element signature="method#calculateProlongPeriodPrice#0;class#RentalView#0" expanded="false" />
+            <element signature="method#disableFieldsAndButton#0;class#RentalView#0" expanded="false" />
+            <element signature="method#addExtraItem#0;class#RentalView#0" expanded="false" />
+            <element signature="class#10068:10868" expanded="false" />
+            <element signature="method#handle#0;class#10068:10868" expanded="false" />
+            <element signature="method#subtractExtraItem#0;class#RentalView#0" expanded="false" />
+            <element signature="class#10992:11752" expanded="false" />
+            <element signature="method#handle#0;class#10992:11752" expanded="false" />
+            <element signature="method#dropOff#0;class#RentalView#0" expanded="false" />
+            <element signature="method#manageInvoices#0;class#RentalView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ReservationView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="321" column="0" lean-forward="true" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
+          <folding>
+            <element signature="method#initialize#0;class#ReservationView#0" expanded="false" />
+            <element signature="e#3016#3041#0" expanded="false" />
+            <element signature="method#setDisable#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#calculateAtTheBeginning#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#loadData#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#goBack#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#goToCustommer#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#addExtraItem#0;class#ReservationView#0" expanded="false" />
+            <element signature="class#6491:7314" expanded="false" />
+            <element signature="method#handle#0;class#6491:7314" expanded="false" />
+            <element signature="method#loadExtraLineItems#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#subtractExtraItem#0;class#ReservationView#0" expanded="false" />
+            <element signature="class#7995:8759" expanded="false" />
+            <element signature="method#handle#0;class#7995:8759" expanded="false" />
+            <element signature="method#calculateExtraKmFee#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#calculateExtraKmFeeEndLocation#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#disableFieldsAndButton#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#changeCamperType#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#changeCamperTypeNewPrice#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#checkCamperTypeAvailable#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#calculateProlongStartDate#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#updateReservation#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#saveChanges#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#saveReservChanges#0;class#ReservationView#0" expanded="false" />
+            <element signature="method#seeInvoices#0;class#ReservationView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="method#changeScreen#0;class#LoginController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/EmployeesView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="168" column="35" lean-forward="true" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc;n#setPossition#0;n#EmployeesView#0" expanded="false" />
+            <element signature="method#setPossition#0;class#EmployeesView#0" expanded="false" />
+            <element signature="method#updateEmployee#0;class#EmployeesView#0" expanded="false" />
+            <element signature="method#goBack#0;class#EmployeesView#0" expanded="false" />
+            <marker date="1496869106419" expanded="false" signature="10390:10765" ph="update employee" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>firstYearProject:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>firstYearProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

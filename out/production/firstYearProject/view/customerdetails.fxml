@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyTyped="#cprRestrict" prefHeight="900.0" prefWidth="1200.0" stylesheets="@VeryPretty.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.CustomerDetailsView">
+   <children>
+      <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="435.0" layoutY="25.0" prefHeight="77.0" prefWidth="410.0" text="Customer info" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="106.0" layoutY="643.0" prefHeight="20.0" prefWidth="134.0" text="First name:" AnchorPane.bottomAnchor="237.0" AnchorPane.leftAnchor="106.0" />
+      <TextField fx:id="firstNameTxt" layoutX="243.0" layoutY="643.0" prefHeight="25.0" prefWidth="214.0" AnchorPane.bottomAnchor="235.0" AnchorPane.leftAnchor="243.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="106.0" layoutY="689.0" prefHeight="20.0" prefWidth="134.0" text="Last name:" AnchorPane.bottomAnchor="191.0" AnchorPane.leftAnchor="106.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="433.0" layoutY="736.0" prefHeight="20.0" prefWidth="92.0" text="Address:" AnchorPane.bottomAnchor="144.0" AnchorPane.leftAnchor="475.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="106.0" layoutY="735.0" prefHeight="20.0" prefWidth="134.0" text="CPR:" AnchorPane.bottomAnchor="145.0" AnchorPane.leftAnchor="106.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="106.0" layoutY="781.0" prefHeight="20.0" prefWidth="134.0" text="Driver license no.:" AnchorPane.bottomAnchor="99.0" AnchorPane.leftAnchor="106.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="433.0" layoutY="689.0" prefHeight="20.0" prefWidth="92.0" text="E-mail:" AnchorPane.bottomAnchor="191.0" AnchorPane.leftAnchor="475.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="433.0" layoutY="643.0" prefHeight="20.0" prefWidth="92.0" text="Phone no.:" AnchorPane.bottomAnchor="237.0" AnchorPane.leftAnchor="475.0" />
+      <TextField fx:id="lastNameTxt" layoutX="243.0" layoutY="685.0" prefHeight="25.0" prefWidth="214.0" AnchorPane.bottomAnchor="189.0" AnchorPane.leftAnchor="243.0" />
+      <TextField fx:id="cprTxt" layoutX="243.0" layoutY="732.0" onKeyTyped="#cprRestrict" prefHeight="25.0" prefWidth="214.0" promptText="xxxxxx-xxxx" AnchorPane.bottomAnchor="143.0" AnchorPane.leftAnchor="243.0" />
+      <TextField fx:id="drLicenseTxt" alignment="BOTTOM_LEFT" layoutX="243.0" layoutY="778.0" onKeyTyped="#drLicenseRestrict" prefHeight="25.0" prefWidth="214.0" AnchorPane.bottomAnchor="97.0" AnchorPane.leftAnchor="243.0" />
+      <TextField fx:id="phoneNumTxt" layoutX="576.0" layoutY="640.0" onKeyTyped="#phoneRestrict" prefHeight="25.0" prefWidth="214.0" AnchorPane.bottomAnchor="235.0" AnchorPane.leftAnchor="576.0" />
+      <TextField fx:id="emailTxt" layoutX="576.0" layoutY="686.0" prefHeight="25.0" prefWidth="214.0" AnchorPane.bottomAnchor="189.0" AnchorPane.leftAnchor="576.0" />
+      <TextField fx:id="addressTxt" layoutX="576.0" layoutY="733.0" prefHeight="25.0" prefWidth="214.0" AnchorPane.bottomAnchor="142.0" AnchorPane.leftAnchor="576.0" />
+      <Button layoutX="100.0" layoutY="845.0" mnemonicParsing="false" onAction="#goBack" prefHeight="44.0" prefWidth="81.0" text="Back" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="106.0" />
+      <Button fx:id="saveButton" layoutX="955.0" layoutY="810.0" mnemonicParsing="false" onAction="#saveCustomer" prefHeight="44.0" prefWidth="117.0" text="Save" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="106.0" />
+      <TableView fx:id="customerTableView" layoutX="245.0" layoutY="183.0" onMouseClicked="#selectCustomer" prefHeight="346.0" prefWidth="988.0" AnchorPane.bottomAnchor="370.0" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="106.0" AnchorPane.topAnchor="183.0">
+        <columns>
+          <TableColumn fx:id="customerIdClm" prefWidth="54.0" text="id" />
+          <TableColumn fx:id="customerCprClm" prefWidth="136.0" text="CPR number" />
+            <TableColumn fx:id="firstNameClm" prefWidth="193.0" text="First name" />
+            <TableColumn fx:id="lastNameClm" prefWidth="175.0" text="Last name" />
+            <TableColumn fx:id="emailClm" prefWidth="238.0" text="e-mail" />
+            <TableColumn fx:id="phoneNumClm" prefWidth="191.0" text="phone number" />
+        </columns>
+      </TableView>
+      <Label id="passLabel" alignment="CENTER" layoutX="569.0" layoutY="158.0" stylesheets="@VeryPretty.css" text="Exisiting customers" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="145.0" />
+      <TextField fx:id="searchField" layoutX="885.0" layoutY="143.0" onKeyReleased="#searchCustomers" promptText="search" AnchorPane.rightAnchor="106.0" AnchorPane.topAnchor="143.0" />
+      <Label layoutX="530.0" layoutY="450.0" />
+      <Label id="passLabel" alignment="CENTER" layoutX="100.0" layoutY="590.0" stylesheets="@VeryPretty.css" text="Customer details:" AnchorPane.bottomAnchor="285.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <Button fx:id="createNewCustButton" layoutX="882.0" layoutY="531.0" mnemonicParsing="false" onAction="#clearCustomerFileds" prefHeight="44.0" prefWidth="214.0" text="Add new " AnchorPane.bottomAnchor="325.0" AnchorPane.rightAnchor="106.0" />
+      <ChoiceBox fx:id="exitOptions" layoutX="1126.0" layoutY="25.0" onMouseClicked="#exitOrLogOut" prefHeight="46.0" prefWidth="52.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="25.0" />
+      <Label fx:id="redLabel" alignment="CENTER" layoutX="445.0" layoutY="494.0" prefHeight="20.0" prefWidth="390.0" text="You have to fill out all the fields !!!" visible="false" />
+      <Button fx:id="saveNewCustomer" layoutX="782.0" layoutY="810.0" mnemonicParsing="false" onAction="#createCustomer" prefHeight="44.0" prefWidth="117.0" text="Save new" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="260.0" />
+      <TextField fx:id="passTxt" layoutX="576.0" layoutY="778.0" prefHeight="25.0" prefWidth="214.0" AnchorPane.bottomAnchor="97.0" AnchorPane.leftAnchor="576.0" />
+      <Label id="label" fx:id="passLabel" alignment="CENTER_RIGHT" layoutX="433.0" layoutY="781.0" prefHeight="20.0" prefWidth="92.0" stylesheets="@VeryPretty.css" text="Password:" AnchorPane.bottomAnchor="99.0" AnchorPane.leftAnchor="475.0" />
+      <Button fx:id="assignButton" layoutX="123.0" layoutY="531.0" mnemonicParsing="false" onAction="#assignToNewReservation" prefHeight="44.0" prefWidth="214.0" text="Assign customer" AnchorPane.bottomAnchor="325.0" AnchorPane.leftAnchor="106.0" />
+      <TextField fx:id="logField" layoutX="826.0" layoutY="778.0" prefHeight="133.0" prefWidth="268.0" AnchorPane.bottomAnchor="97.0" AnchorPane.leftAnchor="826.0" AnchorPane.rightAnchor="106.0" />
+      <Label layoutX="831.0" layoutY="643.0" text="Customer log:" AnchorPane.bottomAnchor="237.0" AnchorPane.leftAnchor="826.0" />
+   </children>
+</AnchorPane>
